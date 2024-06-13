@@ -19,22 +19,24 @@ Before you begin, ensure you have the following prerequisites installed on your 
     git clone https://github.com/chrk-Dev/password-manager
     cd password-manager
     ```
-    
+
 2.  **Install dependencies**:
     
-    
-   ```shell 
+   
+    ```shell 
     bundle install 
-   ```
+    ```
+    
+
     
 3.  **Setup the database**:
     
 
-     ```shell 
-        rails db:create
-        rails db:migrate
-        rails db:seed
-    ```
+    ```shell 
+    rails db:create
+    rails db:migrate
+    rails db:seed
+     ```
     
 
 ### Configuration
@@ -50,5 +52,6 @@ Before you begin, ensure you have the following prerequisites installed on your 
 
 To start the Rails server, run:
 
-
-`rails server`
+ ```shell 
+ rails server
+```
